@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "104013672885",
+    "firebase_url": "https://felony-reporter-e4b86-default-rtdb.firebaseio.com",
+    "project_id": "felony-reporter-e4b86",
+    "storage_bucket": "felony-reporter-e4b86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104013672885:android:297f167ef19bb599f529fc",
+        "android_client_info": {
+          "package_name": "com.example.felonyreporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104013672885-i9ivqc49bdb9h2ropcpe53lbvmu2unp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBejOtS9Ao4oOnu29V34Cr11QyAtQSTAwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104013672885-i9ivqc49bdb9h2ropcpe53lbvmu2unp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

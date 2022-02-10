@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:id="@+id/ccard"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlrl"
+        android:layout_width="match_parent"
+        android:layout_height="132dp">
+
+        <TextView
+            android:id="@+id/cid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ccity"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cid"
+            android:text="City:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cstate"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cid"
+            android:layout_toEndOf="@id/ccity"
+            android:text="State:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ccity"
+            android:text="Pincode:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cdes"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_below="@id/cpin"
+            android:text="Crime Description:"
+            android:inputType="textMultiLine"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

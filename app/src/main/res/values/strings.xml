@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Felony Reporter</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="crimes">
+        <item>Select Category of Crime</item>
+        <item>Murder</item>
+        <item>Theft</item>
+        <item>Pick Pocket</item>
+        <item>Chain Snatching</item>
+    </string-array>
+</resources>
